@@ -38,7 +38,7 @@ Allows you to make "Circuit Traces" and it passes through the circuit board, sim
 ### 4 Bit RAM
 ![image](https://user-images.githubusercontent.com/33318553/138606702-04c57727-32e7-4a52-b854-3fcb43611fcf.png)
 
-`[4 ADDR, 4 DATA, READ WRITE LINES, RESET CHIP ON FAR SIDE, 4 OUTPUTS (HIDDEN)]`
+`[4 ADDR (TOP ROW), 4 DATA (BOTTOM ROW), READ WRITE LINES, RESET CHIP ON FAR SIDE, 4 OUTPUTS (HIDDEN)]`
 A smol RAM component perfect for any 4BIT system!
 
 ### Addressable SR Latch
