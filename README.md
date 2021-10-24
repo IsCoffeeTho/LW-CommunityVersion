@@ -6,7 +6,7 @@ DO NOT USE MODS ON SERVER AS IT IS UNSUPPORTED CURRENTLY
 
 [Using `git`](https://github.com/IsCoffeeTho/LWCommunityVersion/blob/master/INSTALLATION-withgit.md)
 
-[Without `git`]()
+[Without `git`](https://github.com/IsCoffeeTho/LWCommunityVersion/blob/master/INSTALLATION-withoutgit.md)
 
 ## Components
 ### XOR Gate\* (Mini)
