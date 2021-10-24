@@ -5,6 +5,7 @@ DO NOT USE MODS ON SERVER AS IT IS UNSUPPORTED CURRENTLY
 ## Installation
 
 [Using `git`]()
+
 [Without `git`]()
 
 ## Components
