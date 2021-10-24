@@ -4,7 +4,7 @@ DO NOT USE MODS ON SERVER AS IT IS UNSUPPORTED CURRENTLY
 
 ## Installation
 
-[Using `git`]()
+[Using `git`](https://github.com/IsCoffeeTho/LWCommunityVersion/blob/master/INSTALLATION-withgit.md)
 
 [Without `git`]()
 
