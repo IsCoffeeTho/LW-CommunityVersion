@@ -1,0 +1,14 @@
+ComponentColumn.Chips: "Chips"
+ComponentColumn.Coffee: "Coffee"
+
+ComponentCategory.Basic: "Simple"
+ComponentCategory.Advanced: "Advanced"
+
+COFFEE.MiniXor: "Xor Gate*"
+COFFEE.SRLatch: "SR Latch"
+COFFEE.bitReg: "Register"
+COFFEE.Multiplexer: "Multiplexer"
+COFFEE.ThroughHole: "Circuit Via"
+COFFEE.Standoffs: "StandOffs"
+COFFEE.RAM: "4 Bit RAM"
+COFFEE.AddrSR: "8 Bit Addressable SR Latch"

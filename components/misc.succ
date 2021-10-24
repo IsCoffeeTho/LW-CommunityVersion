@@ -1,0 +1,14 @@
+ThroughHole:
+    column: "Miscellaneous"
+    category: "Routing"
+    prefab:
+        inputs:
+            -
+                length: 0.01
+                position: (0, 0, 0)
+            -
+                length: 0.01
+                position: (0, -1/2, 0)
+                rotation: (180, 0, 0)
+    logicCode: LogicWorld.LogicCode.ThroughPeg
+    placingRules: StandardFlippable

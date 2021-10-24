@@ -1,0 +1,105 @@
+MiniXor:
+    column: "Logic"
+    prefab:
+        blocks:
+            - 
+                scale: (1, 1, 1)
+                position : (0, 0, 0)
+                color: 1D2f8E
+        inputs:
+            -
+                position: (-0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0.25, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicScript: XorLogic
+    placingRules:
+        gridPlacingDimensions: (1, 1)
+        allowFineRotation: false
+
+SRLatch:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                color: 6D1916
+                position: (0, 0, 0.5)
+                scale: (1, 1, 2)
+        inputs:
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 1, 0)
+        outputs:
+            -
+                position: (0, 1, 1)
+    logicScript: SRLatch
+    placingRules:
+        offsetDimensions: (1, 2)
+        gridPlacingDimensions: (1, 3)
+        allowFineRotation: false
+
+bitReg:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                color: 1D2f8E
+                position: (0, 0, 0.5)
+                scale: (1, 1, 2)
+        inputs:
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 1, 0)
+        outputs:
+            -
+                position: (0, 1, 1)
+    logicScript: Register
+    placingRules:
+        offsetDimensions: (1, 2)
+        gridPlacingDimensions: (1, 3)
+        allowFineRotation: false
+
+Multiplexer:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                scale: (2, 1, 1)
+                position: (0.5, 0, 0)
+                color: EEEEEE
+        inputs:
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (1, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicScript: Multiplexer
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false
+        canBeFlipped: true
+        flippingPointHeight: 0.5

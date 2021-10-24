@@ -1,0 +1,43 @@
+when in[8']
+  addr = 0 + (in[0'] * 1')
+  addra = addr + (in[1'] * 2')
+  addrb = addra + (in[2'] * 4')
+  addrc = addrb + (in[3'] * 8')
+  addrd = addrc + (in[4'] * 16')
+  addre = addrd + (in[5'] * 32')
+  addrf = addre + (in[6'] * 64')
+  addrg = addrf + (in[7'] * 128')
+  mem[addrg] = 0
+end
+
+when in[9']
+  addr = 0 + (in[0'] * 1')
+  addra = addr + (in[1'] * 2')
+  addrb = addra + (in[2'] * 4')
+  addrc = addrb + (in[3'] * 8')
+  addrd = addrc + (in[4'] * 16')
+  addre = addrd + (in[5'] * 32')
+  addrf = addre + (in[6'] * 64')
+  addrg = addrf + (in[7'] * 128')
+  mem[addrg] = 1
+end
+
+when in[10']
+  addr = 0 + (in[0'] * 1')
+  addra = addr + (in[1'] * 2')
+  addrb = addra + (in[2'] * 4')
+  addrc = addrb + (in[3'] * 8')
+  addrd = addrc + (in[4'] * 16')
+  addre = addrd + (in[5'] * 32')
+  addrf = addre + (in[6'] * 64')
+  addrg = addrf + (in[7'] * 128')
+  out[0] = mem[addrg]
+end
+
+when !in[10']
+  out[0] = 0
+end
+
+when in[11']
+  mem = 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+end

@@ -1,0 +1,11 @@
+when in[1]
+  mem[0] = in[0]
+end
+
+when !in[1]
+  mem[1] = mem[0]
+end
+
+once
+  out = mem[1]
+end

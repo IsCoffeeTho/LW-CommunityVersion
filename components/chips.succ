@@ -1,0 +1,146 @@
+RAM:
+    column: "Chips"
+    category: "Basic"
+    prefab:
+        blocks:
+            - 
+                scale: (4, 1, 2)
+                position : (-0.5, 0, -0.5)
+                color: 555555
+            -
+                scale: (0.2, 0.001, 0.2)
+                position : (-2, 1, 0)
+                color: 444444
+        inputs:
+            -
+                position: (-2, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1.5, 0.6, 0)
+                rotation: (-90, 0, -90)
+                length: 0.6
+            -
+                position: (1.5, 0.6, -1)
+                rotation: (-90, 0, -90)
+                length: 0.6
+            -
+                position: (-2.5, 0.6, -0.5)
+                rotation: (-90, 0, 90)
+                length: 0.6
+        outputs:
+            -
+                position: (-2, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (-1, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (0, 0.5, 0.5)
+                rotation: (90, 0, 0)
+            -
+                position: (1, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicScript: chip-RAM
+    placingRules:
+        gridPlacingDimensions: (1, 1)
+        allowFineRotation: false
+
+AddrSR:
+    column: "Chips"
+    category: "Advanced"
+    prefab:
+        blocks:
+            - 
+                scale: (4, 1, 2)
+                position : (-0.5, 0, -0.5)
+                color: 0081A7
+            -
+                scale: (0.2, 0.001, 0.2)
+                position : (-2, 1, 0)
+                color: 006685
+        inputs:
+            -
+                position: (-2, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.15, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-2, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (-1, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (0, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.6, -1.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1.5, 0.6, 0)
+                rotation: (-90, 0, -90)
+                length: 0.6
+            -
+                position: (1.5, 0.6, -1)
+                rotation: (-90, 0, -90)
+                length: 0.6
+            -
+                position: (1, 1, -0.5)
+                rotation: (0, 0, 0)
+                length: 0.6
+            -
+                position: (-2.5, 0.6, -0.5)
+                rotation: (-90, 0, 90)
+                length: 0.6
+        outputs:
+            -
+                position: (-0.5, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicScript: chip-AddrSR
+    placingRules:
+        gridPlacingDimensions: (1, 1)
+        allowFineRotation: false

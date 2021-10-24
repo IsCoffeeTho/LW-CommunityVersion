@@ -1,0 +1,9 @@
+any
+    out[0] = 0
+    if in[0] == in[1] 
+      out[0] = 0
+    else
+      out[0] = 1
+    end
+    update
+end

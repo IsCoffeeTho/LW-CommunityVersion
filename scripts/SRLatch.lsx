@@ -1,0 +1,11 @@
+when in[1]
+  mem[0] = 0
+end
+
+when in[0]
+  mem[0] = 1
+end
+
+once
+  out = mem[0]
+end
