@@ -1,6 +1,6 @@
 # Logic World - Community Version (Mod)
 ## DISCLAIMER
-DO NOT USE MODS ON SERVER AS IT IS UNSUPPORTED CURRENTLY
+**DO NOT USE MODS ON SERVER AS IT IS UNSUPPORTED CURRENTLY**
 
 ## Installation
 
@@ -40,11 +40,15 @@ Allows you to make "Circuit Traces" and it passes through the circuit board, sim
 
 `[4 ADDR (TOP ROW), 4 DATA (BOTTOM ROW), READ WRITE LINES, RESET CHIP ON FAR SIDE, 4 OUTPUTS (HIDDEN)]`
 
+`[DOT SIGNIFIES SIDE OF LSB]`
+
 A smol RAM component perfect for any 4BIT system!
 
 ### Addressable SR Latch
 ![image](https://user-images.githubusercontent.com/33318553/138606839-85e66aff-775a-47f3-bada-a19199197f7b.png)
 
 `[8 ADDR, SET AND RESET LINES, RESET CHIP ON FAR SIDE, CHIP SELECT ON TOP, 1 OUTPUT (OPPOSITE ADDRs)]`
+
+`[DOT SIGNIFIES SIDE OF LSB]`
 
 Really shrinks down the giant RAM systems.
