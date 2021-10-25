@@ -30,7 +30,7 @@ Very Similar to a D-Latch, Except it saves the bit on the falling edge of the Cl
 Does Exactly what you think it does, except only if you know what it does
 
 ### Circuit Via
-![image](https://user-images.githubusercontent.com/33318553/138606584-82ff499d-2852-4c03-b8e8-0c2267125e87.png)
+![image](https://user-images.githubusercontent.com/33318553/138668446-4c98eee3-94e4-446f-9cfb-1dbddfeab37b.png)
 
 Allows you to make "Circuit Traces" and it passes through the circuit board, similar to a through peg but smol.
 

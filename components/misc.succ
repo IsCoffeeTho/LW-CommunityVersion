@@ -2,6 +2,11 @@ ThroughHole:
     column: "Miscellaneous"
     category: "Routing"
     prefab:
+        blocks:
+            -
+                position: (0, 0, 0)
+                scale: (9/30, -0.5, 9/30)
+                color: 111111
         inputs:
             -
                 length: 0.01
