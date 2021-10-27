@@ -1,0 +1,7 @@
+when in[0]
+  out[0] = in[2]
+end
+
+when !in[0]
+  out[0] = in[1]
+end

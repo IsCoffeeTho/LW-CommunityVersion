@@ -103,3 +103,36 @@ Demultiplexer:
         allowFineRotation: false
         canBeFlipped: true
         flippingPointHeight: 0.5
+
+Multiplexer:
+    column: "Logic"
+    prefab:
+        blocks:
+            -
+                scale: (2, 1, 1)
+                position: (0.5, 0, 0)
+                color: EEEEEE
+        inputs:
+            -
+                position: (1.5, 0.5, 0)
+                rotation: (0, 0, -90)
+                length: 0.6
+            -
+                position: (0, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+            -
+                position: (1, 0.5, -0.5)
+                rotation: (-90, 0, 0)
+                length: 0.6
+        outputs:
+            -
+                position: (0.5, 0.5, 0.5)
+                rotation: (90, 0, 0)
+    logicScript: Multiplexer
+    placingRules:
+        offsetDimensions: (2, 1)
+        gridPlacingDimensions: (2, 2)
+        allowFineRotation: false
+        canBeFlipped: true
+        flippingPointHeight: 0.5
