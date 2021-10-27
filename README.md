@@ -25,9 +25,32 @@ Its a Stock Standard SR Latch (Set, Reset Latch)
 Very Similar to a D-Latch, Except it saves the bit on the falling edge of the Clock
 
 ### Multiplexer
-![image](https://user-images.githubusercontent.com/33318553/138606515-d20f8a72-7a43-498f-ab31-4bc4b9f6b6cb.png)
+![image](https://user-images.githubusercontent.com/16965564/138995049-e1094ad3-2efe-4ccd-951d-1b85a22e208f.png)
 
-Does Exactly what you think it does, except only if you know what it does
+The multiplexer selects between two inputs (D0 and D1) based on the select input (S).
+
+**Multiplexer Truth Table**
+
+D0 | D1 | S | Output
+:-:|:-:|:-:|:-:
+0|any|0|0
+1|any|0|1
+any|0|1|0
+any|1|1|1
+
+### Demultiplexer
+![image](https://user-images.githubusercontent.com/16965564/138996039-20f2c8fd-02fb-4dac-8efa-0243f22bbf20.png)
+
+The demultiplexer routes the input (D) to one of two different outputs (Out 0 and Out 1) based on the select input (S).
+
+**Demultiplexer Truth Table**
+
+S | D | Out 0 | Out 1
+:-:|:-:|:-:|:-:
+0|0|0|0
+0|1|1|0
+1|0|0|0
+1|1|0|1
 
 ### Circuit Via
 ![image](https://user-images.githubusercontent.com/33318553/138668446-4c98eee3-94e4-446f-9cfb-1dbddfeab37b.png)
