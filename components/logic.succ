@@ -72,7 +72,7 @@ bitReg:
         gridPlacingDimensions: (1, 3)
         allowFineRotation: false
 
-Multiplexer:
+Demultiplexer:
     column: "Logic"
     prefab:
         blocks:
@@ -96,7 +96,7 @@ Multiplexer:
             -
                 position: (0, 0.5, 0.5)
                 rotation: (90, 0, 0)
-    logicScript: Multiplexer
+    logicScript: Demultiplexer
     placingRules:
         offsetDimensions: (2, 1)
         gridPlacingDimensions: (2, 2)
