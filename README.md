@@ -55,7 +55,7 @@ S | D | Out 0 | Out 1
 ### Circuit Via
 ![image](https://user-images.githubusercontent.com/33318553/138668446-4c98eee3-94e4-446f-9cfb-1dbddfeab37b.png)
 
-Allows you to make "Circuit Traces" and it passes through the circuit board, similar to a through peg but smol.
+Allows you to make "Circuit Traces" and it passes through the circuit board, similar to a through peg but small.
 
 ## Chips
 ### 4 Bit RAM
@@ -65,7 +65,7 @@ Allows you to make "Circuit Traces" and it passes through the circuit board, sim
 
 `[DOT SIGNIFIES SIDE OF LSB]`
 
-A smol RAM component perfect for any 4BIT system!
+A small RAM component perfect for any 4-bit system!
 
 ### Addressable SR Latch
 ![image](https://user-images.githubusercontent.com/33318553/138606839-85e66aff-775a-47f3-bada-a19199197f7b.png)
