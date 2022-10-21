@@ -1,11 +1,13 @@
+input'2 in
+output out
+reg mem
+
 when in[1]
-  mem[0] = 0
+  mem = 0
 end
 
 when in[0]
-  mem[0] = 1
+  mem = 1
 end
 
-once
-  out = mem[0]
-end
+assign out = mem

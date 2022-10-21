@@ -1,7 +1,6 @@
-when in[0]
-  out[0] = in[2]
-end
+input sel
+input d1
+input d2
+output out
 
-when !in[0]
-  out[0] = in[1]
-end
+assign out = sel ? d2 : d1

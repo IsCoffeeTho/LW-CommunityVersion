@@ -1,9 +1,7 @@
-when in[0]
-  out[1] = in[1]
-  out[0] = 0
-end
+input sel
+input data
+output out1
+output out2
 
-when !in[0]
-  out[0] = in[1]
-  out[1] = 0
-end
+assign out1 = sel ? 0 : data
+assign out2 = sel ? data : 0

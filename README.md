@@ -57,21 +57,21 @@ S | D | Out 0 | Out 1
 
 Allows you to make "Circuit Traces" and it passes through the circuit board, similar to a through peg but small.
 
-## Chips
-### 4 Bit RAM
-![image](https://user-images.githubusercontent.com/33318553/138606702-04c57727-32e7-4a52-b854-3fcb43611fcf.png)
-
-`[4 ADDR (TOP ROW), 4 DATA (BOTTOM ROW), READ WRITE LINES, RESET CHIP ON FAR SIDE, 4 OUTPUTS (HIDDEN)]`
-
-`[DOT SIGNIFIES SIDE OF LSB]`
-
-A small RAM component perfect for any 4-bit system!
-
-### Addressable SR Latch
-![image](https://user-images.githubusercontent.com/33318553/138606839-85e66aff-775a-47f3-bada-a19199197f7b.png)
-
-`[8 ADDR, SET AND RESET LINES, RESET CHIP ON FAR SIDE, CHIP SELECT ON TOP, 1 OUTPUT (OPPOSITE ADDRs)]`
-
-`[DOT SIGNIFIES SIDE OF LSB]`
-
-Really shrinks down the giant RAM systems.
+> ## Chips (currently broken [#2](https://github.com/pipe01/LogicScript/pull/2))
+> ### 4 Bit RAM
+> ![image](https://user-images.githubusercontent.com/33318553/138606702-04c57727-32e7-4a52-b854-3fcb43611fcf.png)
+>
+> `[4 ADDR (TOP ROW), 4 DATA (BOTTOM ROW), READ WRITE LINES, RESET CHIP ON FAR SIDE, 4 OUTPUTS (HIDDEN)]`
+>
+> `[DOT SIGNIFIES SIDE OF LSB]`
+>
+> A small RAM component perfect for any 4-bit system!
+>
+> ### Addressable SR Latch
+> ![image](https://user-images.githubusercontent.com/33318553/138606839-85e66aff-775a-47f3-bada-a19199197f7b.png)
+>
+> `[8 ADDR, SET AND RESET LINES, RESET CHIP ON FAR SIDE, CHIP SELECT ON TOP, 1 OUTPUT (OPPOSITE ADDRs)]`
+>
+> `[DOT SIGNIFIES SIDE OF LSB]`
+>
+> Really shrinks down the giant RAM systems.

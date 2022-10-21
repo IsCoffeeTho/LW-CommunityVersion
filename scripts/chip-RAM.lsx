@@ -1,29 +1,9 @@
-when in[8']
-  addr = 0 + (in[4'] * 1')
-  addra = addr + (in[5'] * 2')
-  addrb = addra + (in[6'] * 4')
-  addrc = addrb + (in[7'] * 8')
-  mem[(addrc * 4') + 0'] = in[0']
-  mem[(addrc * 4') + 1'] = in[1']
-  mem[(addrc * 4') + 2'] = in[2']
-  mem[(addrc  *4') + 3'] = in[3']
-end
+input'4 addr
+input'4 data
+input write
+input read
+input reset
+output'4 out
+reg'16 mem
 
-when in[9']
-  addr = 0 + (in[4'] * 1')
-  addra = addr + (in[5'] * 2')
-  addrb = addra + (in[6'] * 4')
-  addrc = addrb + (in[7'] * 8')
-  out[0'] = mem[(addrc * 4') + 0']
-  out[1'] = mem[(addrc * 4') + 1']
-  out[2'] = mem[(addrc * 4') + 2']
-  out[3'] = mem[(addrc  *4') + 3']
-end
-
-when !in[9']
-  out = 0000
-end
-
-when in[10']
-  mem = 000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-end
+assign out = 0
